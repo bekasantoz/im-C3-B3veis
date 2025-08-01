@@ -11,7 +11,7 @@ export default function Servicos() {
         "Formulários de solicitação",
         "Calculadoras e simuladores",
         "FAQ detalhado",
-        "Agendamento online"
+        "Agendamento online",
       ]}
     />
   );

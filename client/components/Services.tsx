@@ -4,25 +4,37 @@ const services = [
   {
     icon: Search,
     title: "Consultoria Personalizada",
-    description: "Análise completa das suas necessidades para encontrar o imóvel perfeito.",
-    features: ["Perfil personalizado", "Busca especializada", "Acompanhamento dedicado"],
+    description:
+      "Análise completa das suas necessidades para encontrar o imóvel perfeito.",
+    features: [
+      "Perfil personalizado",
+      "Busca especializada",
+      "Acompanhamento dedicado",
+    ],
   },
   {
     icon: Home,
     title: "Avaliação de Imóveis",
-    description: "Avaliação precisa do valor de mercado do seu imóvel com tecnologia avançada.",
-    features: ["Análise de mercado", "Relatório detalhado", "Preço justo garantido"],
+    description:
+      "Avaliação precisa do valor de mercado do seu imóvel com tecnologia avançada.",
+    features: [
+      "Análise de mercado",
+      "Relatório detalhado",
+      "Preço justo garantido",
+    ],
   },
   {
     icon: FileText,
     title: "Documentação Completa",
-    description: "Cuidamos de toda a documentação legal para uma transação segura.",
+    description:
+      "Cuidamos de toda a documentação legal para uma transação segura.",
     features: ["Análise jurídica", "Regularização", "Suporte legal"],
   },
   {
     icon: Key,
     title: "Financiamento",
-    description: "Parcerias com os melhores bancos para facilitar seu financiamento.",
+    description:
+      "Parcerias com os melhores bancos para facilitar seu financiamento.",
     features: ["Melhores taxas", "Aprovação rápida", "Suporte completo"],
   },
   {
@@ -34,8 +46,13 @@ const services = [
   {
     icon: TrendingUp,
     title: "Investimentos",
-    description: "Orientação especializada para investimentos imobiliários rentáveis.",
-    features: ["Análise de ROI", "Oportunidades exclusivas", "Estratégia personalizada"],
+    description:
+      "Orientação especializada para investimentos imobiliários rentáveis.",
+    features: [
+      "Análise de ROI",
+      "Oportunidades exclusivas",
+      "Estratégia personalizada",
+    ],
   },
 ];
 
@@ -52,7 +69,8 @@ export default function Services() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Oferecemos um serviço completo e personalizado para todas as suas necessidades imobiliárias.
+            Oferecemos um serviço completo e personalizado para todas as suas
+            necessidades imobiliárias.
           </p>
         </div>
 
@@ -74,7 +92,7 @@ export default function Services() {
                 <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-gold-600 transition-colors duration-200">
                   {service.title}
                 </h3>
-                
+
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   {service.description}
                 </p>
@@ -82,7 +100,10 @@ export default function Services() {
                 {/* Features */}
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center text-sm text-muted-foreground">
+                    <li
+                      key={featureIndex}
+                      className="flex items-center text-sm text-muted-foreground"
+                    >
                       <div className="w-2 h-2 bg-gold-500 rounded-full mr-3"></div>
                       {feature}
                     </li>
@@ -99,7 +120,8 @@ export default function Services() {
             Pronto para Encontrar Seu Imóvel dos Sonhos?
           </h3>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-            Nossa equipe especializada está pronta para ajudá-lo em cada etapa do processo.
+            Nossa equipe especializada está pronta para ajudá-lo em cada etapa
+            do processo.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-gold-600 px-8 py-3 rounded-xl font-semibold hover:bg-gold-50 transition-colors duration-200">

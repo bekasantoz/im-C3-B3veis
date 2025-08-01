@@ -11,7 +11,7 @@ export default function Contato() {
         "Mapa interativo do escritório",
         "Chat online em tempo real",
         "Agendamento de visitas",
-        "Central de atendimento WhatsApp"
+        "Central de atendimento WhatsApp",
       ]}
     />
   );

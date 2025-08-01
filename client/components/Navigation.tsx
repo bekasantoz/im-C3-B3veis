@@ -21,11 +21,17 @@ export default function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 lg:w-10 lg:h-10 bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg lg:text-xl">CA</span>
+              <span className="text-white font-bold text-lg lg:text-xl">
+                CA
+              </span>
             </div>
             <div className="flex flex-col">
-              <span className="text-foreground font-bold text-lg lg:text-xl">Casa Áurea</span>
-              <span className="text-muted-foreground text-xs hidden sm:block">Luxury Real Estate</span>
+              <span className="text-foreground font-bold text-lg lg:text-xl">
+                Casa Áurea
+              </span>
+              <span className="text-muted-foreground text-xs hidden sm:block">
+                Luxury Real Estate
+              </span>
             </div>
           </Link>
 
@@ -67,7 +73,11 @@ export default function Navigation() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-foreground"
             >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </Button>
           </div>
         </div>

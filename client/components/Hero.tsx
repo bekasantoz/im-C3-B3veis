@@ -28,8 +28,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Especialistas em imóveis de luxo há mais de 20 anos. 
-            Oferecemos as melhores propriedades com o mais alto padrão de qualidade.
+            Especialistas em imóveis de luxo há mais de 20 anos. Oferecemos as
+            melhores propriedades com o mais alto padrão de qualidade.
           </p>
 
           {/* Search Bar */}
@@ -54,7 +54,9 @@ export default function Hero() {
             {/* Search Form */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Localização</label>
+                <label className="text-sm font-medium text-foreground">
+                  Localização
+                </label>
                 <div className="relative">
                   <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
                   <input
@@ -66,7 +68,9 @@ export default function Hero() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Tipo</label>
+                <label className="text-sm font-medium text-foreground">
+                  Tipo
+                </label>
                 <div className="relative">
                   <Home className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
                   <select className="w-full pl-10 pr-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent appearance-none bg-white">
@@ -79,7 +83,9 @@ export default function Hero() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Preço</label>
+                <label className="text-sm font-medium text-foreground">
+                  Preço
+                </label>
                 <select className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent appearance-none bg-white">
                   <option>Qualquer valor</option>
                   <option>Até R$ 500.000</option>
@@ -99,16 +105,28 @@ export default function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl lg:text-4xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/80 text-sm lg:text-base">Imóveis Vendidos</div>
+              <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
+                500+
+              </div>
+              <div className="text-white/80 text-sm lg:text-base">
+                Imóveis Vendidos
+              </div>
             </div>
             <div className="text-center">
-              <div className="text-3xl lg:text-4xl font-bold text-white mb-2">20+</div>
-              <div className="text-white/80 text-sm lg:text-base">Anos de Experiência</div>
+              <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
+                20+
+              </div>
+              <div className="text-white/80 text-sm lg:text-base">
+                Anos de Experiência
+              </div>
             </div>
             <div className="text-center">
-              <div className="text-3xl lg:text-4xl font-bold text-white mb-2">98%</div>
-              <div className="text-white/80 text-sm lg:text-base">Clientes Satisfeitos</div>
+              <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
+                98%
+              </div>
+              <div className="text-white/80 text-sm lg:text-base">
+                Clientes Satisfeitos
+              </div>
             </div>
           </div>
         </div>
@@ -120,7 +138,9 @@ export default function Hero() {
           <Award className="w-8 h-8 text-gold-600" />
           <div>
             <div className="font-semibold text-foreground">Premiada</div>
-            <div className="text-sm text-muted-foreground">Melhor Imobiliária 2023</div>
+            <div className="text-sm text-muted-foreground">
+              Melhor Imobiliária 2023
+            </div>
           </div>
         </div>
       </div>

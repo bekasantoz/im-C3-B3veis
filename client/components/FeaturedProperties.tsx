@@ -8,7 +8,8 @@ const properties = [
     title: "Casa Moderna em Alphaville",
     location: "Alphaville, São Paulo",
     price: "R$ 2.800.000",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     bedrooms: 4,
     bathrooms: 3,
     area: 350,
@@ -20,7 +21,8 @@ const properties = [
     title: "Apartamento de Luxo na Faria Lima",
     location: "Faria Lima, São Paulo",
     price: "R$ 1.950.000",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     bedrooms: 3,
     bathrooms: 2,
     area: 180,
@@ -32,7 +34,8 @@ const properties = [
     title: "Mansão com Vista para o Mar",
     location: "Riviera de São Lourenço",
     price: "R$ 4.200.000",
-    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     bedrooms: 5,
     bathrooms: 4,
     area: 520,
@@ -44,7 +47,8 @@ const properties = [
     title: "Cobertura Duplex Vila Madalena",
     location: "Vila Madalena, São Paulo",
     price: "R$ 3.100.000",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     bedrooms: 3,
     bathrooms: 3,
     area: 220,
@@ -66,8 +70,8 @@ export default function FeaturedProperties() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Descubra nossa seleção exclusiva de imóveis de luxo, 
-            cuidadosamente escolhidos para oferecer o melhor em conforto e elegância.
+            Descubra nossa seleção exclusiva de imóveis de luxo, cuidadosamente
+            escolhidos para oferecer o melhor em conforto e elegância.
           </p>
         </div>
 
@@ -85,7 +89,7 @@ export default function FeaturedProperties() {
                   alt={property.title}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                
+
                 {/* Badges */}
                 <div className="absolute top-4 left-4 flex gap-2">
                   {property.featured && (
@@ -93,7 +97,10 @@ export default function FeaturedProperties() {
                       Destaque
                     </Badge>
                   )}
-                  <Badge variant="secondary" className="bg-white/90 text-foreground">
+                  <Badge
+                    variant="secondary"
+                    className="bg-white/90 text-foreground"
+                  >
                     {property.type}
                   </Badge>
                 </div>
@@ -116,7 +123,7 @@ export default function FeaturedProperties() {
                 <h3 className="text-lg font-bold text-foreground mb-2 group-hover:text-gold-600 transition-colors duration-200">
                   {property.title}
                 </h3>
-                
+
                 <div className="flex items-center text-muted-foreground mb-4">
                   <MapPin className="w-4 h-4 mr-1" />
                   <span className="text-sm">{property.location}</span>
@@ -139,8 +146,8 @@ export default function FeaturedProperties() {
                 </div>
 
                 {/* Action Button */}
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="w-full border-gold-200 hover:bg-gold-50 hover:border-gold-300 hover:text-gold-700"
                 >
                   Ver Detalhes
@@ -152,7 +159,7 @@ export default function FeaturedProperties() {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <Button 
+          <Button
             size="lg"
             className="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white px-8 py-3"
           >

@@ -11,7 +11,7 @@ export default function Sobre() {
         "Equipe especializada",
         "Certificações e prêmios",
         "Depoimentos de clientes",
-        "Parceiros estratégicos"
+        "Parceiros estratégicos",
       ]}
     />
   );

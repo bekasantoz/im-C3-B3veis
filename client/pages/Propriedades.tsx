@@ -11,7 +11,7 @@ export default function Propriedades() {
         "Mapa interativo",
         "Galeria de fotos e tour virtual",
         "Comparação de propriedades",
-        "Calculadora de financiamento"
+        "Calculadora de financiamento",
       ]}
     />
   );
